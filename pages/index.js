@@ -64,7 +64,7 @@ export default function Home () {
         <div className="bg-[url('/images/bg-blur.jpg')] bg-center bg-cover pt-40 absolute inset-0 z-10 opacity-90"></div>
         <div className="max-w-6xl mx-auto z-20 relative">
           <div className="max-w-lg text-white text-center mx-auto z-20">
-            <h2 className="capitalize mb-4">Get start today</h2>
+            <h2 className="capitalize mb-4">Get started today</h2>
             <p className="text-white mb-8">Excepteur culpa dolor cupidatat eiusmod elit. Ad velit in elit quis dolore dolore dolore ullamco dolor ex.</p>
             <button className="px-4 py-2 text-blue-600 rounded-lg shadow-lg shadow-white/30 bg-white capitalize">Let's get going</button>
           </div>
