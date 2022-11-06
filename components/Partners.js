@@ -18,8 +18,7 @@ const Partners = (props) => {
           {
             breakpoint: 1024,
             settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2
+              slidesToShow: 2
             }
           }
         ]}

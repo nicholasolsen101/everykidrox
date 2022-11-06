@@ -29,7 +29,7 @@ export default function Home () {
       </Container>
       <Info />
       <Container>
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 mt-8 md:mt-0">
           <h2 className="mb-2">Simplifying the tedious</h2>
           <p>To give you more time for the important things</p>
         </div>

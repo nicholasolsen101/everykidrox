@@ -4,7 +4,7 @@ import React from "react";
 const Info = (props) => {
   return (
     <div className="bg-[url('/images/bg-blur.jpg')] bg-center bg-cover md:pt-28 pt-12">
-      <Container className="pb-0">
+      <Container className="pb-0 md:pb-0">
         <div className="flex gap-12 md:flex-row flex-col">
           <div className="max-w-lg text-white basis-1/3">
             <h2 className="capitalize mb-4">We're making things simpler for you</h2>
