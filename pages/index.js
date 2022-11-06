@@ -18,7 +18,7 @@ export default function Home () {
       <Header />
       <Container>
         <div className="relative">
-          <div className="text-center z-20 text-slate-800 md:my-8 my-12">
+          <div className="text-center z-20 text-slate-800 md:my-12 my-8">
             <h1 className="mb-2">Wonderfully Unique</h1>
             <p>Helping parents give their children the best care</p>
           </div>

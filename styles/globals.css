@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  @apply text-5xl;
+  @apply md:text-5xl text-3xl;
 }
 
 h2 {
@@ -37,7 +37,7 @@ p {
 
 
 .slick-list {
-    @apply mx-6;
+    @apply md:mx-6;
 }
 
 .slick-slide {

@@ -3,7 +3,7 @@ import Slider from "react-slick";
 
 const Partners = (props) => {
   return (
-    <div className="my-8">
+    <div className="md:my-8">
       <div className="text-center">
         <h2 className="text-lg mb-4 text-slate-400 font-sans">Our Partners</h2>
       </div>

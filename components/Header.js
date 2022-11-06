@@ -1,13 +1,13 @@
 import Container from "./Container";
-import Image from 'next/image'
+import { FiMenu } from 'react-icons/fi';
 import Link from "next/link";
 import React from "react";
 
 const Header = (props) => {
   return (
     <Container className="z-30 pt-0">
-      <div className="max-w-6xl mx-auto mt-8 flex justify-between items-center">
-        <div className="flex space-x-4">
+      <div className="max-w-6xl mx-auto mt-6 md:mt-8 flex justify-between items-center">
+        <div className="flex md:space-x-4">
           <div className="relative flex items-center">
             {/* <Image
               className="w-20 !relative"
@@ -15,9 +15,12 @@ const Header = (props) => {
               layout="fill"
             /> */}
           </div>
-          <h1 className="text-2xl font-serif font-semibold ml-2 text-blue-600">Every Kid Rox</h1>
+          <h1 className="text-lg md:text-2xl font-serif font-semibold md:ml-2 text-blue-600">Every Kid Rox</h1>
         </div>
-        <div>
+        <div className="md:hidden block">
+          <FiMenu />
+        </div>
+        <div className="md:block hidden">
           <ul className="flex space-x-8 items-center">
             <li>
               <Link href="about">Services</Link>
