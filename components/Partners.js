@@ -3,9 +3,9 @@ import Slider from "react-slick";
 
 const Partners = (props) => {
   return (
-    <div className="md:my-8">
+    <div className="md:mb-8">
       <div className="text-center">
-        <h2 className="text-lg mb-4 text-slate-400 font-sans">Our Partners</h2>
+        <h2 className="mb-4 font-sans text-lg text-slate-400">Our Partners</h2>
       </div>
       <Slider
         infinite={true}
@@ -23,12 +23,12 @@ const Partners = (props) => {
           }
         ]}
       >
-        <img src="./images/PartnerLogo_CAS.png" className="grayscale hover:grayscale-0 duration-300 cursor-pointer" />
-        <img src="./images/PartnerLogo_CES.png" className="grayscale hover:grayscale-0 duration-300 cursor-pointer" />
-        <img src="./images/PartnerLogo_CMHA.png" className="grayscale hover:grayscale-0 duration-300 cursor-pointer" />
-        <img src="./images/PartnerLogo_OxCHC.png" className="grayscale hover:grayscale-0 duration-300 cursor-pointer" />
-        <img src="./images/PartnerLogo_Wellkin.png" className="grayscale hover:grayscale-0 duration-300 cursor-pointer" />
-        <img src="./images/PartnerLogo_WH.png" className="grayscale hover:grayscale-0 duration-300 cursor-pointer" />
+        <img src="./images/PartnerLogo_CAS.png" className="duration-300 cursor-pointer grayscale hover:grayscale-0" />
+        <img src="./images/PartnerLogo_CES.png" className="duration-300 cursor-pointer grayscale hover:grayscale-0" />
+        <img src="./images/PartnerLogo_CMHA.png" className="duration-300 cursor-pointer grayscale hover:grayscale-0" />
+        <img src="./images/PartnerLogo_OxCHC.png" className="duration-300 cursor-pointer grayscale hover:grayscale-0" />
+        <img src="./images/PartnerLogo_Wellkin.png" className="duration-300 cursor-pointer grayscale hover:grayscale-0" />
+        <img src="./images/PartnerLogo_WH.png" className="duration-300 cursor-pointer grayscale hover:grayscale-0" />
       </Slider>
     </div>
   )
