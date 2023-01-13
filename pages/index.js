@@ -25,7 +25,7 @@ export default function Home () {
               <h1 className="mb-6">Wonderfully Complex</h1>
               <p className="mb-6 text-slate-200">Helping Parents who care for kids with complex needs, navigate their support system to give their children the best care possible.</p>
               <Link href="about">
-                <button className="px-4 py-2 text-blue-600 bg-white rounded-lg shadow-lg shadow-blue-600/30">Find Out How</button>
+                <button className="px-4 py-2 text-blue-600 bg-white rounded-lg shadow-lg shadow-blue-600/30">Get connected</button>
               </Link>
             </div>
           </div>
